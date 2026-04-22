@@ -416,31 +416,35 @@ def _int_encode(seq: str) -> np.ndarray:
     return np.array([mapping.get(b, 1.5) for b in seq], dtype=float)
 
 
-def svd_entanglement(names, seqs, window=300, step=150):
+def svd_entanglement(names, seqs, window=256, step=128, max_len=8000):
     """
-    Approximation of entanglement entropy via SVD of a sliding-window
-    Hankel-style matrix of the integer-encoded signal.
-    Returns dict name → mean entanglement entropy.
+    FIXED: Proper Hankel trajectory matrix + singular spectrum entropy.
+    This is a genuine proxy for sequence "entanglement"/complexity.
     """
-    print("⚛️  SVD Entanglement Entropy (sliding window)…")
+    print("⚛️  SVD Entanglement Entropy (Hankel trajectory matrix)…")
     results = {}
     for name, seq in zip(names, seqs):
-        signal = _int_encode(seq[:10_000])
-        # centre and normalise so the matrix has non-trivial rank
+        signal = _int_encode(seq[:max_len])
         signal = signal - signal.mean()
         entropies = []
         for start in range(0, len(signal) - window, step):
             chunk = signal[start:start + window]
-            half = window // 2
-            M = np.outer(chunk[:half], chunk[half:])
-            sv = np.linalg.svd(M, compute_uv=False)
+            m = window // 2
+            if len(chunk) < window:
+                continue
+            # Hankel/trajectory matrix
+            hankel = np.zeros((m, window - m + 1))
+            for i in range(m):
+                hankel[i] = chunk[i:i + (window - m + 1)]
+            sv = np.linalg.svd(hankel, compute_uv=False)
             sv = sv[sv > 1e-12]
-            if sv.sum() < 1e-15:
+            if len(sv) == 0:
                 continue
             p = sv / sv.sum()
-            entropies.append(float(-np.dot(p, np.log2(p + 1e-15))))
+            entropy = float(-np.dot(p, np.log2(p + 1e-15)))
+            entropies.append(entropy)
         results[name] = round(float(np.mean(entropies)), 4) if entropies else float('nan')
-    _print_dict(results, "mean_entanglement_entropy")
+    _print_dict(results, "mean_svd_entanglement")
     return results
 
 
@@ -606,8 +610,38 @@ def meta_platonic_projection(feature_dict: dict) -> float:
     print(f"   Morphism consistency score = {score:.4f}  (1.0 = perfectly aligned)")
     return score
 
-
 # ── 2.14  Infinity Layer — clearly labeled ──────────────────
+
+def gc_content_correlation(names, seqs, invariants_dict):
+    """
+    NEW METRIC: GC-content (%) and its Pearson correlation with all major invariants.
+    """
+    print("🧪 GC-Content Correlation with Invariants…")
+    gc = {}
+    for name, seq in zip(names, seqs):
+        gc[name] = round(100 * (seq.count('G') + seq.count('C')) / len(seq), 2) if len(seq) > 0 else 0.0
+
+    print("   GC% per genome:")
+    for n, v in gc.items():
+        print(f"      {n:16s}  GC={v:5.2f}%")
+
+    # Collect numeric invariants (you can extend this list)
+    features = ["fractal_dim", "dominant_freq", "lz_ratio", "mfdfa_alpha", "H1_obstruction"]
+    print("\n   Pearson correlations with GC%:")
+    from scipy.stats import pearsonr
+    for feat in features:
+        if feat not in invariants_dict:
+            continue
+        vals = [invariants_dict[feat].get(n, np.nan) for n in names]
+        gc_vals = [gc[n] for n in names]
+        valid = ~np.isnan(vals)
+        if valid.sum() < 3:
+            continue
+        r, p = pearsonr(np.array(vals)[valid], np.array(gc_vals)[valid])
+        print(f"      {feat:18s}  r = {r:6.3f}  (p={p:6.4f})")
+    return gc
+
+# ── 2.15  Infinity Layer — clearly labeled ──────────────────
 
 def infinity_layer():
     """
@@ -819,6 +853,16 @@ def run_experiment(email: str, full: bool = False, save_dir: str = "results"):
     gf4_res      = gf4_degree_distribution(names, seqs)
 
     # ── Meta-projection ─────────────────────────────────────
+    entangle_res = svd_entanglement(names, seqs)
+    gc = gc_content_correlation(names, seqs, {
+    "fractal_dim": fractal_res,
+    "dominant_freq": {n: fft_res[n]["dominant_freq"] for n in names},
+    "lz_ratio": lz_res,
+    "mfdfa_alpha": {n: mfdfa_res.get(n, {}).get("alpha_mean", np.nan) for n in names},
+    "H1_obstruction": sheaf_res,
+})
+
+
     all_scalar_features = {
         "fft_freq":    {n: fft_res[n]["dominant_freq"]    for n in names if n in fft_res},
         "fractal_dim": fractal_res,
