@@ -1,4 +1,5 @@
 The source code might not compile if your scipy version is above 1.14 as scipy 1.15 deleted cwt and morslet2.
 There might be some compilation issues with special characters in comments such as arrows and emojis.
+If any of the genomes in the dataset has length below 32 characters, the whole program will just crash. Don't include extremely short genomes in the dataset!
 
 Fix: Just delete cwt and morslet2 from the imports as they are not used anyways. They were added just in case future updates were made.
