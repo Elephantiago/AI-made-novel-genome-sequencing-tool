@@ -1,0 +1,2 @@
+The source code might not compile if your scipy version is above 1.14 as scipy 1.15 deleted cwt.
+There might be some compilation issues with special characters in comments such as arrows and emojis.
