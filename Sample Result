@@ -14,8 +14,8 @@
   [cache]  Human_mtDNA       NC_012920
   [cache]  T7_phage          NC_001604
   [cache]  MS2_phage         NC_001417
-  [fetch]  E_coli_K12        NC_000913  … 4,641,652 bp
-  [fetch]  B_subtilis        NC_000964  … 4,215,606 bp
+  [cache]  E_coli_K12        NC_000913
+  [cache]  B_subtilis        NC_000964
    Loaded 13 sequences  •  Total approx. 9.0 MB
 
 🔬 Quantum DNA Resonance (FFT)…
@@ -106,20 +106,20 @@
    MS2_phage         α_mean=1.2504  Δα(width)=1.6839
    E_coli_K12        α_mean=1.5671  Δα(width)=2.2315
    B_subtilis        α_mean=1.5677  Δα(width)=2.2336
-⚛️  SVD Entanglement Entropy (sliding window)…
-   phiX174           mean_entanglement_entropy=-0.0
-   pUC19             mean_entanglement_entropy=-0.0
-   SARS-CoV-2        mean_entanglement_entropy=-0.0
-   M13               mean_entanglement_entropy=-0.0
-   pBR322            mean_entanglement_entropy=-0.0
-   SV40              mean_entanglement_entropy=-0.0
-   Lambda            mean_entanglement_entropy=-0.0
-   PSTVd             mean_entanglement_entropy=-0.0
-   Human_mtDNA       mean_entanglement_entropy=-0.0
-   T7_phage          mean_entanglement_entropy=-0.0
-   MS2_phage         mean_entanglement_entropy=-0.0
-   E_coli_K12        mean_entanglement_entropy=-0.0
-   B_subtilis        mean_entanglement_entropy=-0.0
+⚛️  SVD Entanglement Entropy (Hankel trajectory matrix)…
+   phiX174           mean_svd_entanglement=6.7305
+   pUC19             mean_svd_entanglement=6.7355
+   SARS-CoV-2        mean_svd_entanglement=6.7392
+   M13               mean_svd_entanglement=6.7433
+   pBR322            mean_svd_entanglement=6.7413
+   SV40              mean_svd_entanglement=6.7344
+   Lambda            mean_svd_entanglement=6.7494
+   PSTVd             mean_svd_entanglement=6.7429
+   Human_mtDNA       mean_svd_entanglement=6.7397
+   T7_phage          mean_svd_entanglement=6.7446
+   MS2_phage         mean_svd_entanglement=6.7434
+   E_coli_K12        mean_svd_entanglement=6.7469
+   B_subtilis        mean_svd_entanglement=6.7416
 📡 Fisher-Rao Geometry on 3-mer frequencies…
    Mean Fisher-Rao geodesic distance = 0.5361
 📚 Sheaf Cohomology (Čech-style patch consistency)…
@@ -150,8 +150,44 @@
    MS2_phage         gf4_degree_entropy=1.2004
    E_coli_K12        gf4_degree_entropy=1.1135
    B_subtilis        gf4_degree_entropy=1.272
+⚛️  SVD Entanglement Entropy (Hankel trajectory matrix)…
+   phiX174           mean_svd_entanglement=6.7305
+   pUC19             mean_svd_entanglement=6.7355
+   SARS-CoV-2        mean_svd_entanglement=6.7392
+   M13               mean_svd_entanglement=6.7433
+   pBR322            mean_svd_entanglement=6.7413
+   SV40              mean_svd_entanglement=6.7344
+   Lambda            mean_svd_entanglement=6.7494
+   PSTVd             mean_svd_entanglement=6.7429
+   Human_mtDNA       mean_svd_entanglement=6.7397
+   T7_phage          mean_svd_entanglement=6.7446
+   MS2_phage         mean_svd_entanglement=6.7434
+   E_coli_K12        mean_svd_entanglement=6.7469
+   B_subtilis        mean_svd_entanglement=6.7416
+🧪 GC-Content Correlation with Invariants…
+   GC% per genome:
+      phiX174           GC=44.76%
+      pUC19             GC=50.63%
+      SARS-CoV-2        GC=37.97%
+      M13               GC=40.74%
+      pBR322            GC=53.75%
+      SV40              GC=40.80%
+      Lambda            GC=49.86%
+      PSTVd             GC=58.22%
+      Human_mtDNA       GC=44.36%
+      T7_phage          GC=48.40%
+      MS2_phage         GC=52.12%
+      E_coli_K12        GC=50.79%
+      B_subtilis        GC=43.51%
+
+   Pearson correlations with GC%:
+      fractal_dim         r =  0.758  (p=0.0027)
+      dominant_freq       r =  0.250  (p=0.4103)
+      lz_ratio            r =  0.619  (p=0.0241)
+      mfdfa_alpha         r =  0.502  (p=0.0806)
+      H1_obstruction      r =  0.326  (p=0.2774)
 ♾️  Meta-Platonic Projection…
-   Morphism consistency score = 0.9624  (1.0 = perfectly aligned)
+   Morphism consistency score = 0.9603  (1.0 = perfectly aligned)
 
 🚀 INFINITY LAYER STATUS REPORT 🚀
    [REAL]        Fourier triplet resonance
@@ -194,7 +230,7 @@
 📈 Saved results\de_bruijn.html
 
 ======================================================================
-🎉  Experiment complete.  Morphism score = 0.9624
+🎉  Experiment complete.  Morphism score = 0.9603
     All outputs saved to  ./results/
 ======================================================================
 
