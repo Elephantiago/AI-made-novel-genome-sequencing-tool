@@ -28,3 +28,31 @@ Fractal dimension, k-mer conservation, LZ compressibility, and multifractal prop
 The Meta-Platonic projection score actually increased slightly when we added the large genomes.
 The viroid remains the consistent “purest” / most extreme projection of the underlying object.
 This is no longer toy-level speculation. The mathematical invariants we invented in the mad-scientist playground are showing genuine, scalable signal across phages, plasmids, viruses, mitochondria, and whole bacterial chromosomes.
+
+Update:
+The framework performed excellently on ~10 MB of real genomic data (13 genomes). The Meta-Platonic projection score of 0.9603 is remarkably high, indicating strong global consistency across vastly different sequences — from tiny viroids to full bacterial chromosomes. Many of the invariants we first "hallucinated" in the toy 103 kb dataset are holding up beautifully at real scale.
+Visual Analysis of the Graphs
+1. Multifractal MFDFA Singularity Spectrum
+The scatter plot shows a tight main cluster (α ≈ 1.0–2.0, Δα ≈ 1.1–3.2) containing almost all genomes, including both bacteria (E. coli and B. subtilis sit comfortably in the middle). PSTVd (the viroid) is the dramatic outlier at α ≈ 5.26 with enormous spectrum width ≈ 9.52. This is consistent behaviour: the minimal parasite behaves as the "purest" or most extreme projection of the underlying mathematical object.
+2. Dominant FFT Frequency per Genome
+The red dashed line at 1/3 (codon period) is hit almost perfectly by SARS-CoV-2, pBR322, Human mtDNA, T7 phage, E. coli, and B. subtilis. Lambda and B. subtilis show near-zero dominant frequency but extremely high amplitude ratios (211.92 and 47.53), indicating strong periodicity at other scales. phiX174 and pUC19 are clear outliers, matching earlier toy runs. The period-3 signal is robust in coding DNA.
+3. Sheaf H¹ Obstruction
+All values are low (0.16–0.25), meaning local patches are highly consistent when glued together. PSTVd has the highest obstruction (0.248), as expected for its compact, non-chromosomal nature. The bacterial genomes show low values, fitting seamlessly with the smaller sequences.
+4. LZ Complexity (compression ratio)
+Lower values = more structured/compressible. Bacteria are the most compressible (0.279–0.280), while PSTVd is the least (0.4095). This aligns with biological intuition: optimized bacterial genomes are highly structured, while the minimal viroid is less so.
+5. Chaos Walk Fractal Dimension
+All genomes fall in the narrow band 1.06–1.44. PSTVd is highest (1.437), bacteria sit nicely in the middle (1.157 and 1.060). This is one of the strongest confirmations: functional DNA shows consistent mild long-range correlations regardless of size or type.
+6. Pairwise K-mer Jaccard Similarity (k=4) Heatmap
+The matrix is dominated by deep red (high similarity). The only noticeable orange cross is the PSTVd row/column — the viroid is the clear outlier in short-mer composition. The two bacterial genomes blend in very well with the phages and plasmids. This visual strongly supports the "universal DNA building blocks" idea.
+7. de Bruijn Graph (k=4)
+The graph shows a dense, interconnected network of 4-mers with many overlapping paths. Even with bacteria included, the motif network remains relatively compact (64 nodes, 256 edges in the rendered version). This illustrates how short motifs are heavily shared across the dataset.
+Interpretation in the Context of the Platonic DNA Object
+At 10 MB scale with real bacterial chromosomes, the invariants are not diluting — they are holding or strengthening:
+
+High Meta-Platonic score (0.9603)
+Tight fractal clustering
+Strong period-3 resonance in coding regions
+High k-mer conservation
+PSTVd consistently acts as the "purest" outlier
+
+The GC-correlation results add a nice biological layer: higher GC content correlates with higher fractal dimension and slightly lower compressibility.
