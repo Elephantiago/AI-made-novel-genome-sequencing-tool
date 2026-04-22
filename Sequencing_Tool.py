@@ -21,7 +21,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import torch
 import sympy
-from scipy.signal import cwt, find_peaks, morlet2
+from scipy.signal import find_peaks
 from scipy.spatial.distance import pdist, squareform
 import warnings
 warnings.filterwarnings("ignore")
