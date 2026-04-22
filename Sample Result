@@ -1,0 +1,201 @@
+======================================================================
+🧬  DNA ALCHEMY FRAMEWORK v4.1 — 10 MB REAL DATA EDITION   
+======================================================================
+
+── Fetching sequences ──
+  [cache]  phiX174           NC_001422
+  [cache]  pUC19             L09137
+  [cache]  SARS-CoV-2        NC_045512
+  [cache]  M13               NC_003287
+  [cache]  pBR322            J01749
+  [cache]  SV40              NC_001669
+  [cache]  Lambda            NC_001416
+  [cache]  PSTVd             NC_002030
+  [cache]  Human_mtDNA       NC_012920
+  [cache]  T7_phage          NC_001604
+  [cache]  MS2_phage         NC_001417
+  [fetch]  E_coli_K12        NC_000913  … 4,641,652 bp
+  [fetch]  B_subtilis        NC_000964  … 4,215,606 bp
+   Loaded 13 sequences  •  Total approx. 9.0 MB
+
+🔬 Quantum DNA Resonance (FFT)…
+   phiX174           freq=0.39287  ratio=8.93
+   pUC19             freq=0.11243  ratio=13.57
+   SARS-CoV-2        freq=0.33328  ratio=20.39
+   M13               freq=0.00031  ratio=11.12
+   pBR322            freq=0.33341  ratio=9.64
+   SV40              freq=0.00057  ratio=9.34
+   Lambda            freq=0.00002  ratio=211.92
+   PSTVd             freq=0.26184  ratio=8.43
+   Human_mtDNA       freq=0.33357  ratio=65.67
+   T7_phage          freq=0.33322  ratio=23.41
+   MS2_phage         freq=0.24405  ratio=9.5
+   E_coli_K12        freq=0.33323  ratio=41.12
+   B_subtilis        freq=0.00005  ratio=47.53
+🌌 Chaos Walk Fractal Dimensions…
+   phiX174           fractal_dim=1.1353
+   pUC19             fractal_dim=1.3573
+   SARS-CoV-2        fractal_dim=1.1056
+   M13               fractal_dim=1.0619
+   pBR322            fractal_dim=1.2639
+   SV40              fractal_dim=1.2083
+   Lambda            fractal_dim=1.2567
+   PSTVd             fractal_dim=1.4372
+   Human_mtDNA       fractal_dim=1.1975
+   T7_phage          fractal_dim=1.1247
+   MS2_phage         fractal_dim=1.2163
+   E_coli_K12        fractal_dim=1.1573
+   B_subtilis        fractal_dim=1.0603
+🪐 K-mer Jaccard similarity (k=4)…
+   Mean pairwise Jaccard = 0.9385  (1.0 = identical k-mer sets)
+📉 LZ Complexity (zlib compression ratio)…
+   phiX174           lz_ratio=0.3153
+   pUC19             lz_ratio=0.3366
+   SARS-CoV-2        lz_ratio=0.299
+   M13               lz_ratio=0.3115
+   pBR322            lz_ratio=0.3245
+   SV40              lz_ratio=0.3067
+   Lambda            lz_ratio=0.2963
+   PSTVd             lz_ratio=0.4095
+   Human_mtDNA       lz_ratio=0.3029
+   T7_phage          lz_ratio=0.2974
+   MS2_phage         lz_ratio=0.3351
+   E_coli_K12        lz_ratio=0.2801
+   B_subtilis        lz_ratio=0.279
+🌊 Wavelet Analysis (Morlet CWT)…
+   [pywt not installed — using built-in numpy Morlet CWT]
+   phiX174           dominant_scale_bp=2
+   pUC19             dominant_scale_bp=2
+   SARS-CoV-2        dominant_scale_bp=2
+   M13               dominant_scale_bp=2
+   pBR322            dominant_scale_bp=2
+   SV40              dominant_scale_bp=2
+   Lambda            dominant_scale_bp=2
+   PSTVd             dominant_scale_bp=2
+   Human_mtDNA       dominant_scale_bp=2
+   T7_phage          dominant_scale_bp=2
+   MS2_phage         dominant_scale_bp=2
+   E_coli_K12        dominant_scale_bp=2
+   B_subtilis        dominant_scale_bp=2
+🔺 Persistent Homology on Chaos Walks…
+   [ripser not installed — falling back to component counting]
+   phiX174           β₀=1  β₁=-1  [fallback]
+   pUC19             β₀=1  β₁=-1  [fallback]
+   SARS-CoV-2        β₀=1  β₁=-1  [fallback]
+   M13               β₀=1  β₁=-1  [fallback]
+   pBR322            β₀=1  β₁=-1  [fallback]
+   SV40              β₀=1  β₁=-1  [fallback]
+   Lambda            β₀=1  β₁=-1  [fallback]
+   PSTVd             β₀=1  β₁=-1  [fallback]
+   Human_mtDNA       β₀=1  β₁=-1  [fallback]
+   T7_phage          β₀=1  β₁=-1  [fallback]
+   MS2_phage         β₀=21  β₁=-1  [fallback]
+   E_coli_K12        β₀=1  β₁=-1  [fallback]
+   B_subtilis        β₀=1  β₁=-1  [fallback]
+📐 Multifractal DFA (MFDFA)…
+   phiX174           α_mean=1.4357  Δα(width)=1.8676
+   pUC19             α_mean=1.4023  Δα(width)=1.76
+   SARS-CoV-2        α_mean=1.0706  Δα(width)=1.1083
+   M13               α_mean=1.8024  Δα(width)=2.7206
+   pBR322            α_mean=1.204  Δα(width)=1.4371
+   SV40              α_mean=1.3985  Δα(width)=1.788
+   Lambda            α_mean=1.5933  Δα(width)=2.3503
+   PSTVd             α_mean=5.2619  Δα(width)=9.5214
+   Human_mtDNA       α_mean=1.9977  Δα(width)=3.1929
+   T7_phage          α_mean=1.1509  Δα(width)=1.3684
+   MS2_phage         α_mean=1.2504  Δα(width)=1.6839
+   E_coli_K12        α_mean=1.5671  Δα(width)=2.2315
+   B_subtilis        α_mean=1.5677  Δα(width)=2.2336
+⚛️  SVD Entanglement Entropy (sliding window)…
+   phiX174           mean_entanglement_entropy=-0.0
+   pUC19             mean_entanglement_entropy=-0.0
+   SARS-CoV-2        mean_entanglement_entropy=-0.0
+   M13               mean_entanglement_entropy=-0.0
+   pBR322            mean_entanglement_entropy=-0.0
+   SV40              mean_entanglement_entropy=-0.0
+   Lambda            mean_entanglement_entropy=-0.0
+   PSTVd             mean_entanglement_entropy=-0.0
+   Human_mtDNA       mean_entanglement_entropy=-0.0
+   T7_phage          mean_entanglement_entropy=-0.0
+   MS2_phage         mean_entanglement_entropy=-0.0
+   E_coli_K12        mean_entanglement_entropy=-0.0
+   B_subtilis        mean_entanglement_entropy=-0.0
+📡 Fisher-Rao Geometry on 3-mer frequencies…
+   Mean Fisher-Rao geodesic distance = 0.5361
+📚 Sheaf Cohomology (Čech-style patch consistency)…
+   phiX174           H1_obstruction=0.16607
+   pUC19             H1_obstruction=0.17557
+   SARS-CoV-2        H1_obstruction=0.17253
+   M13               H1_obstruction=0.18404
+   pBR322            H1_obstruction=0.17267
+   SV40              H1_obstruction=0.18927
+   Lambda            H1_obstruction=0.16911
+   PSTVd             H1_obstruction=0.24828
+   Human_mtDNA       H1_obstruction=0.18332
+   T7_phage          H1_obstruction=0.16298
+   MS2_phage         H1_obstruction=0.16094
+   E_coli_K12        H1_obstruction=0.16889
+   B_subtilis        H1_obstruction=0.18017
+📐 GF(4) Polynomial Degree Distribution…
+   phiX174           gf4_degree_entropy=0.9916
+   pUC19             gf4_degree_entropy=0.9327
+   SARS-CoV-2        gf4_degree_entropy=1.3104
+   M13               gf4_degree_entropy=0.949
+   pBR322            gf4_degree_entropy=1.0308
+   SV40              gf4_degree_entropy=1.3428
+   Lambda            gf4_degree_entropy=1.0486
+   PSTVd             gf4_degree_entropy=1.371
+   Human_mtDNA       gf4_degree_entropy=1.2981
+   T7_phage          gf4_degree_entropy=1.2052
+   MS2_phage         gf4_degree_entropy=1.2004
+   E_coli_K12        gf4_degree_entropy=1.1135
+   B_subtilis        gf4_degree_entropy=1.272
+♾️  Meta-Platonic Projection…
+   Morphism consistency score = 0.9624  (1.0 = perfectly aligned)
+
+🚀 INFINITY LAYER STATUS REPORT 🚀
+   [REAL]        Fourier triplet resonance
+     → quantum_resonance() — see results above
+   [REAL]        Chaos-walk fractal dimension
+     → chaos_walk_fractal() — box-counting D
+   [REAL]        Persistent topology (β₀, β₁)
+     → persistent_homology() via ripser
+   [REAL]        Multifractal DFA spectrum
+     → multifractal_analysis() — Kantelhardt MFDFA
+   [REAL]        SVD entanglement entropy
+     → svd_entanglement() — sliding-window SVD
+   [REAL]        Fisher-Rao geodesic distance
+     → fisher_rao_geometry() — probability simplex
+   [REAL]        Sheaf H¹ obstruction (Čech proxy)
+     → sheaf_cohomology_approx() — patch cosine
+   [REAL]        GF(4) degree-distribution entropy
+     → gf4_degree_distribution()
+   [CONCEPTUAL]  ∞-category equivalence class
+     → requires proof assistant (Lean/Coq/Agda)
+   [CONCEPTUAL]  Transfinite complexity tower (ω+7)
+     → ordinal arithmetic, not computable by numpy
+   [CONCEPTUAL]  AdS/CFT holographic duality
+     → bulk/boundary QFT — no Python implementation
+   [CONCEPTUAL]  Grothendieck topos / large cardinals
+     → set-theoretic forcing — beyond ZFC in Python
+   [CONCEPTUAL]  HoTT univalence / contractible Id-type
+     → type-theoretic proof, not numerical computation
+
+🎨  Generating visualisations → results/
+📊 Saved fft_frequencies.png
+📊 Saved fractal_dimensions.png
+📊 Saved jaccard_heatmap.png
+📊 Saved lz_complexity.png
+📊 Saved mfdfa_spectrum.png
+📊 Saved sheaf_h1.png
+📈 Building interactive de Bruijn graph…
+🕸️  Building de Bruijn Graph (k=4)…
+   64 nodes  •  256 edges
+📈 Saved results\de_bruijn.html
+
+======================================================================
+🎉  Experiment complete.  Morphism score = 0.9624
+    All outputs saved to  ./results/
+======================================================================
+
+🎉Experiment complete — approx. 10 MB of real genomic data analysed!
