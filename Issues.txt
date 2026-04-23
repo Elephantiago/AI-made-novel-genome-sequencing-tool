@@ -1,1 +1,7 @@
-The organism types weren't built for organisms more complex than bacterium as humans, flies and spider were added towards the end to test the software on much larger genomes. Therefore humans are marked as bacteriums.
+1. The organism types weren't built for organisms more complex than bacterium as humans, flies and spider were added towards the end to test the software on much larger genomes. Therefore humans are marked as bacteriums.
+
+2. One thing to note, is that the program is optimised for my restrained computation capabilities and therefore a few functions that do the heaviest computing are truncated to check just first 200 thousand base-pairs.
+   You can change it any time by searching every max_len variable in the code and raising it from 200 thousand to let's say 1 billion to check the entire genome.
+   I already ran the functions at max_len 5 million and the numbers varied only in third decimal point compared to running the functions on just 200 thousand base-pairs.
+   I already have a much faster version that optimises arrays using numpy, but that version can easily take up your entire RAM on larger datasets due to CPU versus RAM trade-off.
+   I also have a working version with adaptive deBruijn map size for better clarity, but again that version takes significantly more time to compute if the graph has 64 thousand edges.
