@@ -5,3 +5,5 @@ e.g.
 python Genome_Sequencing_v5.py --email your@email.com --extra
 You should have console output with text data similar to what you see in Output600MB.txt file, then there will be ganomic cache folder where all the genomes are downloaded and cached and then there's output folder where graphs and JSON files are storded.
 Run with just email without other arguments is instant, --full argument takes a few seconds to complete, --extra takes about 5 minutes and --ultra can easily take an hour to process.
+Note that your email is required to pull the genomic data from the official site. No verification is required, it is used to ban certain users if they abuse the server limits and pull data thousand times an hour.
+That's also the reason why genomic data is cached, so program won't spam the servers with every run.
