@@ -1,0 +1,1 @@
+The organism types weren't built for organisms more complex than bacterium as humans, flies and spider were added towards the end to test the software on much larger genomes. Therefore humans are marked as bacteriums.
