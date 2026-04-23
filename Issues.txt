@@ -5,3 +5,9 @@
    I already ran the functions at max_len 5 million and the numbers varied only in third decimal point compared to running the functions on just 200 thousand base-pairs.
    I already have a much faster version that optimises arrays using numpy, but that version can easily take up your entire RAM on larger datasets due to CPU versus RAM trade-off.
    I also have a working version with adaptive deBruijn map size for better clarity, but again that version takes significantly more time to compute if the graph has 64 thousand edges.
+
+3. The upside is that the code has high potential for being run in parrallel as hardest computational lifting is done on single genomes without taking into consideration anything else,
+   meaning you can run the heaviest computation for every genome on a different CPU core and save the results into a small JSON file. Once the computations are finished,
+   you merge all the JSON files and create visualisations alongside computing functions that need to take into considerations different genomes,
+   This means that if you have a datacenter with 10 thousand CPU cores, you might be able to run full analysis on 10 thousand full human genomes
+   in just a few hours.
