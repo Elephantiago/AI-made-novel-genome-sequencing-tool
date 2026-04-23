@@ -1458,7 +1458,7 @@ def run_experiment(email: str, full: bool = False, extra: bool = False,
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="DNA Alchemy Framework v5.0 — multi-metric genomic analysis")
-    parser.add_argument("--email", default="juraj.chobot60@gmail.com",
+    parser.add_argument("--email", default="your@email.com",
                         help="NCBI Entrez email (required)")
     parser.add_argument("--full", action="store_true",
                         help="Add E. coli + B. subtilis (~10 MB)")
