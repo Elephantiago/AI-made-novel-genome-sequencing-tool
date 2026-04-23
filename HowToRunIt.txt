@@ -1,0 +1,7 @@
+In order to launch the program from console, use command "cd" + working directory to get into folder where the software is
+Make sure you have Python installed with all of the libraries the software uses.
+Run console command with arguments --email "your-email-address" and optional flags --full --extra or --ultra to download and analyse more and more genomes from the data bank
+e.g.
+python Genome_Sequencing_v5.py --email your@email.com --extra
+You should have console output with text data similar to what you see in Output600MB.txt file, then there will be ganomic cache folder where all the genomes are downloaded and cached and then there's output folder where graphs and JSON files are storded.
+Run with just email without other arguments is instant, --full argument takes a few seconds to complete, --extra takes about 5 minutes and --ultra can easily take an hour to process.
