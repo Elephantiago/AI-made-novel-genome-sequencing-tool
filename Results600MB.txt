@@ -1,0 +1,666 @@
+01:20:07  ──────────────────── DNA ALCHEMY FRAMEWORK v5.0 ────────────────────
+
+── Fetching sequences ──
+01:20:07    [cache]  phiX174                 NC_001422
+01:20:07    [cache]  pUC19                   L09137
+01:20:07    [cache]  SARS-CoV-2              NC_045512
+01:20:07    [cache]  M13                     NC_003287
+01:20:07    [cache]  pBR322                  J01749
+01:20:07    [cache]  SV40                    NC_001669
+01:20:07    [cache]  Lambda                  NC_001416
+01:20:07    [cache]  PSTVd                   NC_002030
+01:20:07    [cache]  Human_mtDNA             NC_012920
+01:20:07    [cache]  T7_phage                NC_001604
+01:20:07    [cache]  MS2_phage               NC_001417
+01:20:07    [cache]  E_coli_K12              NC_000913
+01:20:07    [cache]  B_subtilis              NC_000964
+01:20:07    [cache]  P_aeruginosa_PA O1      NC_002516
+01:20:07    [cache]  M_tuberculosis_H37Rv    NC_000962
+01:20:07    [cache]  V_cholerae_chr1         NC_002505
+01:20:07    [cache]  S_pneumoniae_R6         NC_003098
+01:20:07    [cache]  H_influenzae_RdKW20     NC_000907
+01:20:07    [cache]  M_jannaschii            NC_000916
+01:20:07    [cache]  T_thermophilus          NC_006461
+01:20:07    [cache]  S_cerevisiae_chrIV      NC_001136
+01:20:07    [cache]  Salmonella_enterica     NC_003197
+01:20:07    [cache]  Streptomyces_coelicolor  NC_005363
+01:20:07    [cache]  Pseudomonas_putida      NC_009512
+01:20:08    [cache]  Bacillus_cereus         NC_003909
+01:20:08    [cache]  Rhodobacter_sphaeroides  NC_007779
+01:20:08    [cache]  Sulfolobus_solfataricus  NC_002754
+01:20:08    [cache]  Arabidopsis_chr1        NC_003070
+01:20:08    [cache]  Drosophila_chr2         NC_004353
+01:20:08    [cache]  C_elegans_chrI          NC_003279
+01:20:08    [cache]  S_cerevisiae_full       NC_001143
+01:20:08    [cache]  Human_chr1              NC_000001
+01:20:11    [cache]  Human_chr2              NC_000002
+01:20:13    [cache]  Human_chr19             NC_000019
+01:20:14    [cache]  Human_chr21             NC_000021
+   Loaded 35 sequences  •  Total ~703.1 MB
+
+01:20:14     Dataset: 35 genomes  •  703.1 MB total
+01:20:14  ────────────────────── FFT Spectral Analysis ───────────────────────
+01:20:14     phiX174                 freq=0.21190  ratio=    6.14  codon_band=0.0877
+01:20:14     pUC19                   freq=0.11567  ratio=    5.63  codon_band=0.0444
+01:20:14     SARS-CoV-2              freq=0.05786  ratio=   13.20  codon_band=0.0776
+01:20:14     M13                     freq=0.49219  ratio=    6.56  codon_band=0.0915
+01:20:14     pBR322                  freq=0.40596  ratio=    5.64  codon_band=0.1002
+01:20:14     SV40                    freq=0.00382  ratio=    9.23  codon_band=0.0697
+01:20:14     Lambda                  freq=0.33320  ratio=   21.17  codon_band=0.0708
+01:20:14     PSTVd                   freq=0.08571  ratio=    3.26  codon_band=0.0812
+01:20:14     Human_mtDNA             freq=0.03684  ratio=    5.81  codon_band=0.0704
+01:20:14     T7_phage                freq=0.33308  ratio=   14.07  codon_band=0.0837
+01:20:14     MS2_phage               freq=0.05899  ratio=    5.47  codon_band=0.0946
+01:20:14     E_coli_K12              freq=0.00004  ratio=   34.96  codon_band=0.0776
+01:20:14     B_subtilis              freq=0.00002  ratio=   78.29  codon_band=0.0800
+01:20:14     P_aeruginosa_PA O1      freq=0.33327  ratio=  252.57  codon_band=0.1584
+01:20:14     M_tuberculosis_H37Rv    freq=0.33334  ratio=  230.53  codon_band=0.1272
+01:20:14     V_cholerae_chr1         freq=0.00001  ratio=   37.02  codon_band=0.0776
+01:20:14     S_pneumoniae_R6         freq=0.00001  ratio=   93.37  codon_band=0.0847
+01:20:14     H_influenzae_RdKW20     freq=0.00007  ratio=   28.02  codon_band=0.0766
+01:20:14     M_jannaschii            freq=0.00001  ratio=   95.44  codon_band=0.0938
+01:20:14     T_thermophilus          freq=0.33332  ratio=  304.33  codon_band=0.1713
+01:20:15     S_cerevisiae_chrIV      freq=0.00014  ratio=   27.34  codon_band=0.0830
+01:20:15     Salmonella_enterica     freq=0.00005  ratio=   71.37  codon_band=0.0786
+01:20:15     Streptomyces_coelicolor  freq=0.33339  ratio=   46.73  codon_band=0.0886
+01:20:15     Pseudomonas_putida      freq=0.00001  ratio=  204.27  codon_band=0.1099
+01:20:15     Bacillus_cereus         freq=0.00001  ratio=  158.99  codon_band=0.0896
+01:20:15     Rhodobacter_sphaeroides  freq=0.00004  ratio=   34.96  codon_band=0.0776
+01:20:15     Sulfolobus_solfataricus  freq=0.00004  ratio=   31.11  codon_band=0.0891
+01:20:15     Arabidopsis_chr1        freq=0.00024  ratio=   51.37  codon_band=0.0811
+01:20:15     Drosophila_chr2         freq=0.00007  ratio=   77.08  codon_band=0.0787
+01:20:15     C_elegans_chrI          freq=0.00002  ratio=   38.90  codon_band=0.0815
+01:20:15     S_cerevisiae_full       freq=0.00010  ratio=   19.11  codon_band=0.0794
+01:20:15     Human_chr1              freq=0.00001  ratio=  773.79  codon_band=0.0722
+01:20:15     Human_chr2              freq=0.00012  ratio=   81.63  codon_band=0.0715
+01:20:15     Human_chr19             freq=0.00001  ratio= 1511.59  codon_band=0.0744
+01:20:15     Human_chr21             freq=0.00001  ratio=    0.00  codon_band=0.0000
+01:20:15  ─────────────────── Chaos Walk Fractal Dimension ───────────────────
+01:20:15     phiX174                 fractal_dim=1.0984  (used 538 bp)
+01:20:15     pUC19                   fractal_dim=1.1112  (used 268 bp)
+01:20:15     SARS-CoV-2              fractal_dim=1.2083  (used 2,990 bp)
+01:20:15     M13                     fractal_dim=1.1508  (used 640 bp)
+01:20:15     pBR322                  fractal_dim=1.5294  (used 436 bp)
+01:20:15     SV40                    fractal_dim=1.4188  (used 524 bp)
+01:20:15     Lambda                  fractal_dim=1.128  (used 4,850 bp)
+01:20:15     PSTVd                   fractal_dim=NaN  (sequence too short)
+01:20:15     Human_mtDNA             fractal_dim=1.255  (used 1,656 bp)
+01:20:15     T7_phage                fractal_dim=1.2257  (used 3,993 bp)
+01:20:15     MS2_phage               fractal_dim=1.585  (used 356 bp)
+01:20:17     E_coli_K12              fractal_dim=1.2008  (used 200,000 bp)
+01:20:20     B_subtilis              fractal_dim=1.0755  (used 200,000 bp)
+01:20:22     P_aeruginosa_PA O1      fractal_dim=1.0611  (used 200,000 bp)
+01:20:25     M_tuberculosis_H37Rv    fractal_dim=1.063  (used 200,000 bp)
+01:20:27     V_cholerae_chr1         fractal_dim=1.1865  (used 200,000 bp)
+01:20:30     S_pneumoniae_R6         fractal_dim=1.0793  (used 200,000 bp)
+01:20:32     H_influenzae_RdKW20     fractal_dim=1.0874  (used 183,013 bp)
+01:20:34     M_jannaschii            fractal_dim=1.2345  (used 175,137 bp)
+01:20:37     T_thermophilus          fractal_dim=1.0826  (used 184,974 bp)
+01:20:39     S_cerevisiae_chrIV      fractal_dim=1.0772  (used 153,193 bp)
+01:20:41     Salmonella_enterica     fractal_dim=1.1889  (used 200,000 bp)
+01:20:44     Streptomyces_coelicolor  fractal_dim=1.2  (used 200,000 bp)
+01:20:46     Pseudomonas_putida      fractal_dim=1.0791  (used 200,000 bp)
+01:20:49     Bacillus_cereus         fractal_dim=1.0467  (used 200,000 bp)
+01:20:51     Rhodobacter_sphaeroides  fractal_dim=1.2008  (used 200,000 bp)
+01:20:54     Sulfolobus_solfataricus  fractal_dim=1.0952  (used 200,000 bp)
+01:20:57     Arabidopsis_chr1        fractal_dim=1.088  (used 200,000 bp)
+01:20:58     Drosophila_chr2         fractal_dim=1.074  (used 134,813 bp)
+01:21:01     C_elegans_chrI          fractal_dim=1.0956  (used 200,000 bp)
+01:21:02     S_cerevisiae_full       fractal_dim=1.0669  (used 66,681 bp)
+01:21:04     Human_chr1              fractal_dim=1.1932  (used 200,000 bp)
+01:21:07     Human_chr2              fractal_dim=1.1083  (used 200,000 bp)
+01:21:09     Human_chr19             fractal_dim=1.0444  (used 200,000 bp)
+01:21:11     Human_chr21             fractal_dim=0.9952  (used 200,000 bp)
+01:21:11  ────────────────── K-mer Jaccard Similarity (k=7) ──────────────────
+01:32:03     Mean pairwise Jaccard (k=7) = 0.6478
+01:32:03  ────────────────────────── LZ Complexity ───────────────────────────
+01:32:03     phiX174                 lz_ratio=0.3153
+01:32:03     pUC19                   lz_ratio=0.3366
+01:32:03     SARS-CoV-2              lz_ratio=0.299
+01:32:03     M13                     lz_ratio=0.3115
+01:32:03     pBR322                  lz_ratio=0.3245
+01:32:03     SV40                    lz_ratio=0.3067
+01:32:03     Lambda                  lz_ratio=0.2963
+01:32:03     PSTVd                   lz_ratio=0.4095
+01:32:03     Human_mtDNA             lz_ratio=0.3029
+01:32:03     T7_phage                lz_ratio=0.2974
+01:32:03     MS2_phage               lz_ratio=0.3351
+01:32:08     E_coli_K12              lz_ratio=0.2801
+01:32:12     B_subtilis              lz_ratio=0.279
+01:32:20     P_aeruginosa_PA O1      lz_ratio=0.2688
+01:32:26     M_tuberculosis_H37Rv    lz_ratio=0.273
+01:32:29     V_cholerae_chr1         lz_ratio=0.2805
+01:32:31     S_pneumoniae_R6         lz_ratio=0.2784
+01:32:33     H_influenzae_RdKW20     lz_ratio=0.278
+01:32:35     M_jannaschii            lz_ratio=0.2776
+01:32:38     T_thermophilus          lz_ratio=0.2582
+01:32:40     S_cerevisiae_chrIV      lz_ratio=0.279
+01:32:45     Salmonella_enterica     lz_ratio=0.28
+01:32:49     Streptomyces_coelicolor  lz_ratio=0.2802
+01:32:56     Pseudomonas_putida      lz_ratio=0.2743
+01:33:02     Bacillus_cereus         lz_ratio=0.2759
+01:33:07     Rhodobacter_sphaeroides  lz_ratio=0.2801
+01:33:10     Sulfolobus_solfataricus  lz_ratio=0.2758
+01:33:45     Arabidopsis_chr1        lz_ratio=0.2688
+01:33:47     Drosophila_chr2         lz_ratio=0.2617
+01:34:06     C_elegans_chrI          lz_ratio=0.2677
+01:34:06     S_cerevisiae_full       lz_ratio=0.2822
+01:38:18     Human_chr1              lz_ratio=0.2459
+01:42:47     Human_chr2              lz_ratio=0.2669
+01:43:43     Human_chr19             lz_ratio=0.2447
+01:44:26     Human_chr21             lz_ratio=0.2216
+01:44:26  ────────────────── Wavelet Analysis (Morlet CWT) ───────────────────
+01:44:26     [pywt not installed — using built-in numpy Morlet]
+01:44:26     phiX174                 dom_scale=   3 bp  codon_ratio=4.915  helix_ratio=1.845
+01:44:26     pUC19                   dom_scale=   3 bp  codon_ratio=7.219  helix_ratio=1.973
+01:44:26     SARS-CoV-2              dom_scale=   3 bp  codon_ratio=5.210  helix_ratio=2.210
+01:44:26     M13                     dom_scale=   3 bp  codon_ratio=4.912  helix_ratio=1.677
+01:44:26     pBR322                  dom_scale=   3 bp  codon_ratio=10.248  helix_ratio=1.556
+01:44:26     SV40                    dom_scale=   3 bp  codon_ratio=4.194  helix_ratio=1.898
+01:44:26     Lambda                  dom_scale=   3 bp  codon_ratio=6.154  helix_ratio=1.537
+01:44:26     PSTVd                   dom_scale=   7 bp  codon_ratio=5.815  helix_ratio=1.093
+01:44:26     Human_mtDNA             dom_scale=   3 bp  codon_ratio=4.823  helix_ratio=1.718
+01:44:26     T7_phage                dom_scale=   3 bp  codon_ratio=5.918  helix_ratio=2.095
+01:44:26     MS2_phage               dom_scale=   3 bp  codon_ratio=4.631  helix_ratio=1.646
+01:44:27     E_coli_K12              dom_scale=   3 bp  codon_ratio=7.059  helix_ratio=1.424
+01:44:28     B_subtilis              dom_scale=   3 bp  codon_ratio=4.927  helix_ratio=1.650
+01:44:29     P_aeruginosa_PA O1      dom_scale=   3 bp  codon_ratio=7.075  helix_ratio=1.611
+01:44:30     M_tuberculosis_H37Rv    dom_scale=   3 bp  codon_ratio=8.000  helix_ratio=1.473
+01:44:31     V_cholerae_chr1         dom_scale=   3 bp  codon_ratio=6.099  helix_ratio=1.427
+01:44:32     S_pneumoniae_R6         dom_scale=   3 bp  codon_ratio=4.937  helix_ratio=1.664
+01:44:33     H_influenzae_RdKW20     dom_scale=   3 bp  codon_ratio=5.503  helix_ratio=1.540
+01:44:33     M_jannaschii            dom_scale=   3 bp  codon_ratio=4.731  helix_ratio=2.114
+01:44:34     T_thermophilus          dom_scale=   3 bp  codon_ratio=3.086  helix_ratio=1.782
+01:44:35     S_cerevisiae_chrIV      dom_scale=   3 bp  codon_ratio=5.136  helix_ratio=1.643
+01:44:36     Salmonella_enterica     dom_scale=   3 bp  codon_ratio=7.020  helix_ratio=1.371
+01:44:37     Streptomyces_coelicolor  dom_scale=   3 bp  codon_ratio=5.067  helix_ratio=1.835
+01:44:38     Pseudomonas_putida      dom_scale=   3 bp  codon_ratio=6.755  helix_ratio=1.539
+01:44:39     Bacillus_cereus         dom_scale=   3 bp  codon_ratio=5.068  helix_ratio=1.630
+01:44:40     Rhodobacter_sphaeroides  dom_scale=   3 bp  codon_ratio=7.059  helix_ratio=1.424
+01:44:41     Sulfolobus_solfataricus  dom_scale=   3 bp  codon_ratio=4.986  helix_ratio=1.825
+01:44:42     Arabidopsis_chr1        dom_scale=   3 bp  codon_ratio=4.693  helix_ratio=1.566
+01:44:42     Drosophila_chr2         dom_scale=   3 bp  codon_ratio=5.111  helix_ratio=1.673
+01:44:43     C_elegans_chrI          dom_scale=   3 bp  codon_ratio=3.993  helix_ratio=1.997
+01:44:44     S_cerevisiae_full       dom_scale=   3 bp  codon_ratio=5.092  helix_ratio=1.681
+01:44:45     Human_chr1              dom_scale=   3 bp  codon_ratio=4.224  helix_ratio=1.593
+01:44:45     Human_chr2              dom_scale=   3 bp  codon_ratio=4.211  helix_ratio=1.646
+01:44:46     Human_chr19             dom_scale=   3 bp  codon_ratio=4.300  helix_ratio=1.666
+01:44:47     Human_chr21             dom_scale=   3 bp  codon_ratio=0.000  helix_ratio=0.000
+01:44:47  ─────────────────────── Persistent Homology ────────────────────────
+01:44:48     [using ripser]
+01:44:48     phiX174                 β₀=1  β₁=25  [ripser]
+01:44:48     pUC19                   β₀=1  β₁=53  [ripser]
+01:44:48     SARS-CoV-2              β₀=1  β₁=0  [ripser]
+01:44:48     M13                     β₀=1  β₁=16  [ripser]
+01:44:48     pBR322                  β₀=1  β₁=38  [ripser]
+01:44:48     SV40                    β₀=1  β₁=21  [ripser]
+01:44:48     Lambda                  β₀=1  β₁=7  [ripser]
+01:44:48     PSTVd                   β₀=1  β₁=80  [ripser]
+01:44:48     Human_mtDNA             β₀=1  β₁=7  [ripser]
+01:44:49     T7_phage                β₀=1  β₁=19  [ripser]
+01:44:49     MS2_phage               β₀=1  β₁=82  [ripser]
+01:44:50     E_coli_K12              β₀=1  β₁=20  [ripser]
+01:44:51     B_subtilis              β₀=1  β₁=0  [ripser]
+01:44:53     P_aeruginosa_PA O1      β₀=1  β₁=0  [ripser]
+01:44:54     M_tuberculosis_H37Rv    β₀=1  β₁=0  [ripser]
+01:44:55     V_cholerae_chr1         β₀=1  β₁=0  [ripser]
+01:44:55     S_pneumoniae_R6         β₀=1  β₁=0  [ripser]
+01:44:56     H_influenzae_RdKW20     β₀=1  β₁=0  [ripser]
+01:44:56     M_jannaschii            β₀=1  β₁=39  [ripser]
+01:44:57     T_thermophilus          β₀=1  β₁=0  [ripser]
+01:44:57     S_cerevisiae_chrIV      β₀=1  β₁=0  [ripser]
+01:44:59     Salmonella_enterica     β₀=1  β₁=7  [ripser]
+01:45:00     Streptomyces_coelicolor  β₀=1  β₁=13  [ripser]
+01:45:01     Pseudomonas_putida      β₀=1  β₁=0  [ripser]
+01:45:03     Bacillus_cereus         β₀=1  β₁=0  [ripser]
+01:45:04     Rhodobacter_sphaeroides  β₀=1  β₁=24  [ripser]
+01:45:05     Sulfolobus_solfataricus  β₀=1  β₁=0  [ripser]
+01:45:12     Arabidopsis_chr1        β₀=1  β₁=0  [ripser]
+01:45:13     Drosophila_chr2         β₀=1  β₁=0  [ripser]
+01:45:16     C_elegans_chrI          β₀=1  β₁=0  [ripser]
+01:45:17     S_cerevisiae_full       β₀=1  β₁=0  [ripser]
+01:46:23     Human_chr1              β₀=1  β₁=2  [ripser]
+01:47:25     Human_chr2              β₀=1  β₁=1  [ripser]
+01:47:41     Human_chr19             β₀=1  β₁=34  [ripser]
+01:47:52     Human_chr21             β₀=1  β₁=6  [ripser]
+01:47:52  ───────────────────────── Multifractal DFA ─────────────────────────
+01:47:52     phiX174                 SKIPPED — Sequence too short (538 bp < 1000 required)
+01:47:52     phiX174                 α_mean=nan  Δα=nan
+01:47:52     pUC19                   SKIPPED — Sequence too short (268 bp < 1000 required)
+01:47:52     pUC19                   α_mean=nan  Δα=nan
+01:47:52     SARS-CoV-2              α_mean=1.2901  Δα=1.8987
+01:47:52     M13                     SKIPPED — Sequence too short (640 bp < 1000 required)
+01:47:52     M13                     α_mean=nan  Δα=nan
+01:47:52     pBR322                  SKIPPED — Sequence too short (436 bp < 1000 required)
+01:47:52     pBR322                  α_mean=nan  Δα=nan
+01:47:52     SV40                    SKIPPED — Sequence too short (524 bp < 1000 required)
+01:47:52     SV40                    α_mean=nan  Δα=nan
+01:47:53     Lambda                  α_mean=1.2689  Δα=1.6942
+01:47:53     PSTVd                   SKIPPED — Sequence too short (35 bp < 1000 required)
+01:47:53     PSTVd                   α_mean=nan  Δα=nan
+01:47:53     Human_mtDNA             α_mean=1.0357  Δα=1.1341
+01:47:53     T7_phage                α_mean=1.3032  Δα=1.7124
+01:47:53     MS2_phage               SKIPPED — Sequence too short (356 bp < 1000 required)
+01:47:53     MS2_phage               α_mean=nan  Δα=nan
+01:47:57     E_coli_K12              α_mean=0.8014  Δα=0.4851
+01:48:01     B_subtilis              α_mean=1.0383  Δα=0.9159
+01:48:06     P_aeruginosa_PA O1      α_mean=0.7998  Δα=0.4719
+01:48:10     M_tuberculosis_H37Rv    α_mean=0.9359  Δα=0.9052
+01:48:14     V_cholerae_chr1         α_mean=1.0051  Δα=0.9117
+01:48:18     S_pneumoniae_R6         α_mean=1.0461  Δα=0.9271
+01:48:22     H_influenzae_RdKW20     α_mean=1.0274  Δα=0.9384
+01:48:26     M_jannaschii            α_mean=1.1104  Δα=0.9297
+01:48:30     T_thermophilus          α_mean=1.2  Δα=1.3197
+01:48:33     S_cerevisiae_chrIV      α_mean=1.2194  Δα=1.3745
+01:48:37     Salmonella_enterica     α_mean=0.974  Δα=0.9297
+01:48:42     Streptomyces_coelicolor  α_mean=1.0051  Δα=0.9356
+01:48:46     Pseudomonas_putida      α_mean=0.7906  Δα=0.4618
+01:48:50     Bacillus_cereus         α_mean=0.9916  Δα=0.9186
+01:48:54     Rhodobacter_sphaeroides  α_mean=0.8014  Δα=0.4851
+01:48:59     Sulfolobus_solfataricus  α_mean=1.1532  Δα=0.8963
+01:49:03     Arabidopsis_chr1        α_mean=1.3143  Δα=1.7293
+01:49:06     Drosophila_chr2         α_mean=1.0158  Δα=0.9773
+01:49:10     C_elegans_chrI          α_mean=1.0599  Δα=0.9564
+01:49:12     S_cerevisiae_full       α_mean=1.7442  Δα=2.5848
+01:49:16     Human_chr1              α_mean=1.5373  Δα=1.5322
+01:49:20     Human_chr2              α_mean=1.5252  Δα=1.5546
+01:49:24     Human_chr19             α_mean=0.4251  Δα=0.8509
+01:49:28     Human_chr21             α_mean=0.0  Δα=0.0
+01:49:28  ───────────── SVD Spectral Entropy (scale-normalised) ──────────────
+01:49:28     phiX174                 svd_entropy_ratio=0.96401
+01:49:28     pUC19                   svd_entropy_ratio=nan
+01:49:29     SARS-CoV-2              svd_entropy_ratio=0.96287
+01:49:29     M13                     svd_entropy_ratio=0.96096
+01:49:29     pBR322                  svd_entropy_ratio=nan
+01:49:29     SV40                    svd_entropy_ratio=0.95927
+01:49:29     Lambda                  svd_entropy_ratio=0.96168
+01:49:29     PSTVd                   svd_entropy_ratio=nan
+01:49:29     Human_mtDNA             svd_entropy_ratio=0.95514
+01:49:29     T7_phage                svd_entropy_ratio=0.95951
+01:49:29     MS2_phage               svd_entropy_ratio=nan
+01:49:37     E_coli_K12              svd_entropy_ratio=0.96182
+01:49:46     B_subtilis              svd_entropy_ratio=0.96133
+01:49:54     P_aeruginosa_PA O1      svd_entropy_ratio=0.95985
+01:50:02     M_tuberculosis_H37Rv    svd_entropy_ratio=0.96095
+01:50:11     V_cholerae_chr1         svd_entropy_ratio=0.96217
+01:50:19     S_pneumoniae_R6         svd_entropy_ratio=0.96239
+01:50:27     H_influenzae_RdKW20     svd_entropy_ratio=0.96181
+01:50:34     M_jannaschii            svd_entropy_ratio=0.96132
+01:50:42     T_thermophilus          svd_entropy_ratio=0.95954
+01:50:48     S_cerevisiae_chrIV      svd_entropy_ratio=0.96249
+01:50:56     Salmonella_enterica     svd_entropy_ratio=0.96212
+01:51:05     Streptomyces_coelicolor  svd_entropy_ratio=0.96153
+01:51:13     Pseudomonas_putida      svd_entropy_ratio=0.9613
+01:51:22     Bacillus_cereus         svd_entropy_ratio=0.96204
+01:51:30     Rhodobacter_sphaeroides  svd_entropy_ratio=0.96182
+01:51:38     Sulfolobus_solfataricus  svd_entropy_ratio=0.96265
+01:51:47     Arabidopsis_chr1        svd_entropy_ratio=0.96225
+01:51:52     Drosophila_chr2         svd_entropy_ratio=0.96144
+01:52:00     C_elegans_chrI          svd_entropy_ratio=0.96015
+01:52:03     S_cerevisiae_full       svd_entropy_ratio=0.96238
+01:52:12     Human_chr1              svd_entropy_ratio=0.91298
+01:52:20     Human_chr2              svd_entropy_ratio=0.91291
+01:52:28     Human_chr19             svd_entropy_ratio=0.67258
+01:52:37     Human_chr21             svd_entropy_ratio=0.0
+01:52:37  ──────────────────── Fisher-Rao Geometry (k=3) ─────────────────────
+02:05:28     Mean pairwise distance = 0.5580
+02:05:28     phiX174                 dist_to_centroid=0.313
+02:05:28     pUC19                   dist_to_centroid=0.2098
+02:05:28     SARS-CoV-2              dist_to_centroid=0.4567
+02:05:28     M13                     dist_to_centroid=0.3544
+02:05:28     pBR322                  dist_to_centroid=0.2938
+02:05:28     SV40                    dist_to_centroid=0.4932
+02:05:28     Lambda                  dist_to_centroid=0.2242
+02:05:28     PSTVd                   dist_to_centroid=0.7862
+02:05:28     Human_mtDNA             dist_to_centroid=0.564
+02:05:28     T7_phage                dist_to_centroid=0.3285
+02:05:28     MS2_phage               dist_to_centroid=0.3003
+02:05:28     E_coli_K12              dist_to_centroid=0.244
+02:05:28     B_subtilis              dist_to_centroid=0.2021
+02:05:28     P_aeruginosa_PA O1      dist_to_centroid=0.7535
+02:05:28     M_tuberculosis_H37Rv    dist_to_centroid=0.7224
+02:05:28     V_cholerae_chr1         dist_to_centroid=0.1898
+02:05:28     S_pneumoniae_R6         dist_to_centroid=0.2949
+02:05:28     H_influenzae_RdKW20     dist_to_centroid=0.339
+02:05:28     M_jannaschii            dist_to_centroid=0.3216
+02:05:28     T_thermophilus          dist_to_centroid=0.9098
+02:05:28     S_cerevisiae_chrIV      dist_to_centroid=0.3242
+02:05:28     Salmonella_enterica     dist_to_centroid=0.2881
+02:05:28     Streptomyces_coelicolor  dist_to_centroid=0.2574
+02:05:28     Pseudomonas_putida      dist_to_centroid=0.5851
+02:05:28     Bacillus_cereus         dist_to_centroid=0.4028
+02:05:28     Rhodobacter_sphaeroides  dist_to_centroid=0.244
+02:05:28     Sulfolobus_solfataricus  dist_to_centroid=0.45
+02:05:28     Arabidopsis_chr1        dist_to_centroid=0.4095
+02:05:28     Drosophila_chr2         dist_to_centroid=0.4027
+02:05:28     C_elegans_chrI          dist_to_centroid=0.4118
+02:05:28     S_cerevisiae_full       dist_to_centroid=0.3177
+02:05:28     Human_chr1              dist_to_centroid=0.3789
+02:05:28     Human_chr2              dist_to_centroid=0.4035
+02:05:28     Human_chr19             dist_to_centroid=0.3281
+02:05:28     Human_chr21             dist_to_centroid=0.3702
+02:05:28  ───────────────────────── Sheaf Cohomology ─────────────────────────
+02:05:28     phiX174                 H1_obstruction=0.15612
+02:05:28     pUC19                   H1_obstruction=0.1645
+02:05:28     SARS-CoV-2              H1_obstruction=0.16728
+02:05:28     M13                     H1_obstruction=0.19429
+02:05:28     pBR322                  H1_obstruction=0.16406
+02:05:28     SV40                    H1_obstruction=0.18789
+02:05:28     Lambda                  H1_obstruction=0.16801
+02:05:28     PSTVd                   H1_obstruction=0.02868
+02:05:28     Human_mtDNA             H1_obstruction=0.18232
+02:05:29     T7_phage                H1_obstruction=0.14827
+02:05:29     MS2_phage               H1_obstruction=0.1411
+02:05:52     E_coli_K12              H1_obstruction=0.1646
+02:06:13     B_subtilis              H1_obstruction=0.1796
+02:06:44     P_aeruginosa_PA O1      H1_obstruction=0.18665
+02:07:09     M_tuberculosis_H37Rv    H1_obstruction=0.18374
+02:07:26     V_cholerae_chr1         H1_obstruction=0.16224
+02:07:38     S_pneumoniae_R6         H1_obstruction=0.18031
+02:07:48     H_influenzae_RdKW20     H1_obstruction=0.19178
+02:07:59     M_jannaschii            H1_obstruction=0.17314
+02:08:09     T_thermophilus          H1_obstruction=0.20038
+02:08:17     S_cerevisiae_chrIV      H1_obstruction=0.18879
+02:08:41     Salmonella_enterica     H1_obstruction=0.17
+02:09:00     Streptomyces_coelicolor  H1_obstruction=0.16501
+02:09:29     Pseudomonas_putida      H1_obstruction=0.17446
+02:09:55     Bacillus_cereus         H1_obstruction=0.19401
+02:10:19     Rhodobacter_sphaeroides  H1_obstruction=0.16455
+02:10:33     Sulfolobus_solfataricus  H1_obstruction=0.18978
+02:13:07     Arabidopsis_chr1        H1_obstruction=0.19704
+02:13:14     Drosophila_chr2         H1_obstruction=0.20193
+02:14:29     C_elegans_chrI          H1_obstruction=0.21303
+02:14:33     S_cerevisiae_full       H1_obstruction=0.18714
+02:34:17     Human_chr1              H1_obstruction=0.18978
+02:53:47     Human_chr2              H1_obstruction=0.19065
+02:58:32     Human_chr19             H1_obstruction=0.19222
+03:02:02     Human_chr21             H1_obstruction=0.19057
+03:02:02  ──────────────── GF(4) Degree Distribution Entropy ─────────────────
+03:02:02     phiX174                 gf4_entropy=0.9916
+03:02:02     pUC19                   gf4_entropy=0.9327
+03:02:02     SARS-CoV-2              gf4_entropy=1.3104
+03:02:02     M13                     gf4_entropy=0.949
+03:02:02     pBR322                  gf4_entropy=1.0308
+03:02:02     SV40                    gf4_entropy=1.3428
+03:02:02     Lambda                  gf4_entropy=1.0486
+03:02:02     PSTVd                   gf4_entropy=1.371
+03:02:02     Human_mtDNA             gf4_entropy=1.2981
+03:02:02     T7_phage                gf4_entropy=1.2052
+03:02:02     MS2_phage               gf4_entropy=1.2004
+03:02:02     E_coli_K12              gf4_entropy=1.1135
+03:02:03     B_subtilis              gf4_entropy=1.272
+03:02:03     P_aeruginosa_PA O1      gf4_entropy=0.7936
+03:02:04     M_tuberculosis_H37Rv    gf4_entropy=0.8014
+03:02:04     V_cholerae_chr1         gf4_entropy=1.1656
+03:02:04     S_pneumoniae_R6         gf4_entropy=1.3172
+03:02:04     H_influenzae_RdKW20     gf4_entropy=1.3647
+03:02:04     M_jannaschii            gf4_entropy=1.0727
+03:02:05     T_thermophilus          gf4_entropy=0.7682
+03:02:05     S_cerevisiae_chrIV      gf4_entropy=1.3503
+03:02:05     Salmonella_enterica     gf4_entropy=1.0947
+03:02:06     Streptomyces_coelicolor  gf4_entropy=1.1453
+03:02:06     Pseudomonas_putida      gf4_entropy=0.8789
+03:02:07     Bacillus_cereus         gf4_entropy=1.3912
+03:02:07     Rhodobacter_sphaeroides  gf4_entropy=1.1106
+03:02:07     Sulfolobus_solfataricus  gf4_entropy=1.34
+03:02:10     Arabidopsis_chr1        gf4_entropy=1.3953
+03:02:11     Drosophila_chr2         gf4_entropy=1.4011
+03:02:12     C_elegans_chrI          gf4_entropy=1.4854
+03:02:12     S_cerevisiae_full       gf4_entropy=1.3621
+03:02:36     Human_chr1              gf4_entropy=1.2959
+03:02:59     Human_chr2              gf4_entropy=1.321
+03:03:05     Human_chr19             gf4_entropy=1.1935
+03:03:10     Human_chr21             gf4_entropy=1.3083
+03:03:10  ───────────────── Dinucleotide Relative Abundance ──────────────────
+03:03:10     phiX174                 ρ_dev=0.1347  over=GC(ρ=1.29)  under=TA(ρ=0.77)
+03:03:10     pUC19                   ρ_dev=0.0886  over=AA(ρ=1.25)  under=AC(ρ=0.79)
+03:03:10     SARS-CoV-2              ρ_dev=0.1709  over=TG(ρ=1.38)  under=CG(ρ=0.41)
+03:03:10     M13                     ρ_dev=0.1237  over=AA(ρ=1.39)  under=AG(ρ=0.77)
+03:03:10     pBR322                  ρ_dev=0.0955  over=GC(ρ=1.20)  under=TA(ρ=0.82)
+03:03:10     SV40                    ρ_dev=0.2485  over=GG(ρ=1.34)  under=CG(ρ=0.12)
+03:03:10     Lambda                  ρ_dev=0.1191  over=GC(ρ=1.20)  under=TA(ρ=0.71)
+03:03:10     PSTVd                   ρ_dev=0.3260  over=AA(ρ=1.96)  under=AT(ρ=0.19)
+03:03:10     Human_mtDNA             ρ_dev=0.1222  over=GG(ρ=1.50)  under=CG(ρ=0.64)
+03:03:10     T7_phage                ρ_dev=0.0968  over=CT(ρ=1.28)  under=AT(ρ=0.85)
+03:03:10     MS2_phage               ρ_dev=0.0590  over=TC(ρ=1.14)  under=TG(ρ=0.91)
+03:03:13     E_coli_K12              ρ_dev=0.1486  over=GC(ρ=1.28)  under=TA(ρ=0.75)
+03:03:16     B_subtilis              ρ_dev=0.1368  over=GC(ρ=1.27)  under=TA(ρ=0.65)
+03:03:21     P_aeruginosa_PA O1      ρ_dev=0.1286  over=GC(ρ=1.17)  under=TA(ρ=0.54)
+03:03:24     M_tuberculosis_H37Rv    ρ_dev=0.1378  over=AT(ρ=1.25)  under=TA(ρ=0.57)
+03:03:26     V_cholerae_chr1         ρ_dev=0.1333  over=GC(ρ=1.30)  under=TA(ρ=0.69)
+03:03:28     S_pneumoniae_R6         ρ_dev=0.1235  over=AA(ρ=1.16)  under=CG(ρ=0.69)
+03:03:29     H_influenzae_RdKW20     ρ_dev=0.1551  over=GC(ρ=1.43)  under=TA(ρ=0.75)
+03:03:30     M_jannaschii            ρ_dev=0.1727  over=CC(ρ=1.25)  under=CG(ρ=0.51)
+03:03:32     T_thermophilus          ρ_dev=0.2406  over=AA(ρ=1.29)  under=TA(ρ=0.64)
+03:03:33     S_cerevisiae_chrIV      ρ_dev=0.0922  over=TT(ρ=1.14)  under=TA(ρ=0.77)
+03:03:37     Salmonella_enterica     ρ_dev=0.1525  over=GC(ρ=1.31)  under=CT(ρ=0.80)
+03:03:39     Streptomyces_coelicolor  ρ_dev=0.1445  over=AA(ρ=1.31)  under=TA(ρ=0.45)
+03:03:44     Pseudomonas_putida      ρ_dev=0.1385  over=TG(ρ=1.28)  under=TA(ρ=0.56)
+03:03:48     Bacillus_cereus         ρ_dev=0.0743  over=GC(ρ=1.19)  under=TA(ρ=0.84)
+03:03:51     Rhodobacter_sphaeroides  ρ_dev=0.1486  over=GC(ρ=1.28)  under=TA(ρ=0.75)
+03:03:54     Sulfolobus_solfataricus  ρ_dev=0.1233  over=GG(ρ=1.24)  under=CG(ρ=0.67)
+03:04:16     Arabidopsis_chr1        ρ_dev=0.1071  over=TT(ρ=1.13)  under=CG(ρ=0.72)
+03:04:17     Drosophila_chr2         ρ_dev=0.0972  over=GC(ρ=1.23)  under=TA(ρ=0.87)
+03:04:28     C_elegans_chrI          ρ_dev=0.1498  over=AA(ρ=1.32)  under=TA(ρ=0.59)
+03:04:28     S_cerevisiae_full       ρ_dev=0.0927  over=AA(ρ=1.14)  under=TA(ρ=0.77)
+03:07:26     Human_chr1              ρ_dev=0.1874  over=CC(ρ=1.24)  under=CG(ρ=0.24)
+03:10:23     Human_chr2              ρ_dev=0.1847  over=CC(ρ=1.24)  under=CG(ρ=0.23)
+03:11:06     Human_chr19             ρ_dev=0.1960  over=CC(ρ=1.23)  under=CG(ρ=0.33)
+03:11:38     Human_chr21             ρ_dev=0.1780  over=CC(ρ=1.22)  under=CG(ρ=0.28)
+03:11:38  ─────────────────── K-mer Shannon Entropy (k=4) ────────────────────
+03:11:38     phiX174                 H=7.7830 bits  H_norm=0.9729
+03:11:38     pUC19                   H=7.8893 bits  H_norm=0.9862
+03:11:38     SARS-CoV-2              H=7.7088 bits  H_norm=0.9636
+03:11:38     M13                     H=7.7256 bits  H_norm=0.9657
+03:11:38     pBR322                  H=7.8957 bits  H_norm=0.9870
+03:11:38     SV40                    H=7.6289 bits  H_norm=0.9536
+03:11:38     Lambda                  H=7.8967 bits  H_norm=0.9871
+03:11:38     PSTVd                   H=7.1426 bits  H_norm=0.8928
+03:11:38     Human_mtDNA             H=7.6565 bits  H_norm=0.9571
+03:11:38     T7_phage                H=7.8927 bits  H_norm=0.9866
+03:11:38     MS2_phage               H=7.9334 bits  H_norm=0.9917
+03:11:42     E_coli_K12              H=7.8951 bits  H_norm=0.9869
+03:11:46     B_subtilis              H=7.8431 bits  H_norm=0.9804
+03:11:51     P_aeruginosa_PA O1      H=7.5459 bits  H_norm=0.9432
+03:11:55     M_tuberculosis_H37Rv    H=7.6149 bits  H_norm=0.9519
+03:11:58     V_cholerae_chr1         H=7.9113 bits  H_norm=0.9889
+03:11:59     S_pneumoniae_R6         H=7.8047 bits  H_norm=0.9756
+03:12:01     H_influenzae_RdKW20     H=7.7393 bits  H_norm=0.9674
+03:12:02     M_jannaschii            H=7.8562 bits  H_norm=0.9820
+03:12:04     T_thermophilus          H=7.3063 bits  H_norm=0.9133
+03:12:05     S_cerevisiae_chrIV      H=7.7863 bits  H_norm=0.9733
+03:12:10     Salmonella_enterica     H=7.8808 bits  H_norm=0.9851
+03:12:13     Streptomyces_coelicolor  H=7.8718 bits  H_norm=0.9840
+03:12:18     Pseudomonas_putida      H=7.7168 bits  H_norm=0.9646
+03:12:23     Bacillus_cereus         H=7.7118 bits  H_norm=0.9640
+03:12:27     Rhodobacter_sphaeroides  H=7.8952 bits  H_norm=0.9869
+03:12:29     Sulfolobus_solfataricus  H=7.7137 bits  H_norm=0.9642
+03:12:55     Arabidopsis_chr1        H=7.7138 bits  H_norm=0.9642
+03:12:57     Drosophila_chr2         H=7.7060 bits  H_norm=0.9632
+03:13:10     C_elegans_chrI          H=7.6315 bits  H_norm=0.9539
+03:13:10     S_cerevisiae_full       H=7.7909 bits  H_norm=0.9739
+03:16:38     Human_chr1              H=7.7576 bits  H_norm=0.9697
+03:20:12     Human_chr2              H=7.7341 bits  H_norm=0.9668
+03:21:02     Human_chr19             H=7.8038 bits  H_norm=0.9755
+03:21:40     Human_chr21             H=7.7554 bits  H_norm=0.9694
+03:21:40  ───────────────────────── GC-Skew Analysis ─────────────────────────
+03:21:40     phiX174                 gc_skew_mean=nan  gc_skew_std=nan
+03:21:40     pUC19                   gc_skew_mean=nan  gc_skew_std=nan
+03:21:40     SARS-CoV-2              gc_skew_mean=0.0465  gc_skew_std=0.0138
+03:21:40     M13                     gc_skew_mean=nan  gc_skew_std=nan
+03:21:40     pBR322                  gc_skew_mean=nan  gc_skew_std=nan
+03:21:40     SV40                    gc_skew_mean=nan  gc_skew_std=nan
+03:21:40     Lambda                  gc_skew_mean=0.0497  gc_skew_std=0.0649
+03:21:40     PSTVd                   gc_skew_mean=nan  gc_skew_std=nan
+03:21:40     Human_mtDNA             gc_skew_mean=-0.4050  gc_skew_std=0.0521
+03:21:40     T7_phage                gc_skew_mean=0.0665  gc_skew_std=0.0190
+03:21:40     MS2_phage               gc_skew_mean=nan  gc_skew_std=nan
+03:21:40     E_coli_K12              gc_skew_mean=-0.0014  gc_skew_std=0.0422
+03:21:40     B_subtilis              gc_skew_mean=-0.0032  gc_skew_std=0.0882
+03:21:40     P_aeruginosa_PA O1      gc_skew_mean=-0.0088  gc_skew_std=0.0423
+03:21:40     M_tuberculosis_H37Rv    gc_skew_mean=-0.0017  gc_skew_std=0.0405
+03:21:40     V_cholerae_chr1         gc_skew_mean=0.0045  gc_skew_std=0.0610
+03:21:40     S_pneumoniae_R6         gc_skew_mean=0.0042  gc_skew_std=0.1099
+03:21:41     H_influenzae_RdKW20     gc_skew_mean=-0.0047  gc_skew_std=0.0723
+03:21:41     M_jannaschii            gc_skew_mean=0.0012  gc_skew_std=0.0536
+03:21:41     T_thermophilus          gc_skew_mean=-0.0051  gc_skew_std=0.0367
+03:21:41     S_cerevisiae_chrIV      gc_skew_mean=0.0033  gc_skew_std=0.0435
+03:21:41     Salmonella_enterica     gc_skew_mean=0.0000  gc_skew_std=0.0516
+03:21:41     Streptomyces_coelicolor  gc_skew_mean=0.0021  gc_skew_std=0.0648
+03:21:41     Pseudomonas_putida      gc_skew_mean=-0.0019  gc_skew_std=0.0420
+03:21:41     Bacillus_cereus         gc_skew_mean=0.0026  gc_skew_std=0.1704
+03:21:41     Rhodobacter_sphaeroides  gc_skew_mean=0.0007  gc_skew_std=0.0423
+03:21:41     Sulfolobus_solfataricus  gc_skew_mean=0.0017  gc_skew_std=0.0933
+03:21:42     Arabidopsis_chr1        gc_skew_mean=-0.0012  gc_skew_std=0.0585
+03:21:42     Drosophila_chr2         gc_skew_mean=0.0026  gc_skew_std=0.0793
+03:21:42     C_elegans_chrI          gc_skew_mean=-0.0005  gc_skew_std=0.0492
+03:21:42     S_cerevisiae_full       gc_skew_mean=-0.0075  gc_skew_std=0.0410
+03:21:47     Human_chr1              gc_skew_mean=0.0007  gc_skew_std=0.0496
+03:21:52     Human_chr2              gc_skew_mean=0.0014  gc_skew_std=0.0500
+03:21:53     Human_chr19             gc_skew_mean=0.0045  gc_skew_std=0.0555
+03:21:54     Human_chr21             gc_skew_mean=0.0029  gc_skew_std=0.0679
+03:21:54  ──────────────────── GC Content & Correlations ─────────────────────
+03:21:57     GC% per genome:
+03:21:57        phiX174                 GC=44.76%
+03:21:57        pUC19                   GC=50.63%
+03:21:57        SARS-CoV-2              GC=37.97%
+03:21:57        M13                     GC=40.74%
+03:21:57        pBR322                  GC=53.75%
+03:21:57        SV40                    GC=40.80%
+03:21:57        Lambda                  GC=49.86%
+03:21:57        PSTVd                   GC=58.22%
+03:21:57        Human_mtDNA             GC=44.36%
+03:21:57        T7_phage                GC=48.40%
+03:21:57        MS2_phage               GC=52.12%
+03:21:57        E_coli_K12              GC=50.79%
+03:21:57        B_subtilis              GC=43.51%
+03:21:57        P_aeruginosa_PA O1      GC=66.56%
+03:21:57        M_tuberculosis_H37Rv    GC=65.61%
+03:21:57        V_cholerae_chr1         GC=47.69%
+03:21:57        S_pneumoniae_R6         GC=39.72%
+03:21:57        H_influenzae_RdKW20     GC=38.15%
+03:21:57        M_jannaschii            GC=49.54%
+03:21:57        T_thermophilus          GC=69.52%
+03:21:57        S_cerevisiae_chrIV      GC=37.91%
+03:21:57        Salmonella_enterica     GC=52.22%
+03:21:57        Streptomyces_coelicolor  GC=50.65%
+03:21:57        Pseudomonas_putida      GC=61.86%
+03:21:57        Bacillus_cereus         GC=35.58%
+03:21:57        Rhodobacter_sphaeroides  GC=50.80%
+03:21:57        Sulfolobus_solfataricus  GC=35.79%
+03:21:57        Arabidopsis_chr1        GC=35.68%
+03:21:57        Drosophila_chr2         GC=34.81%
+03:21:57        C_elegans_chrI          GC=35.75%
+03:21:57        S_cerevisiae_full       GC=38.07%
+03:21:57        Human_chr1              GC=38.63%
+03:21:57        Human_chr2              GC=39.96%
+03:21:57        Human_chr19             GC=47.79%
+03:21:57        Human_chr21             GC=35.14%
+03:21:57
+   Pearson correlations with GC%:
+03:21:57        fractal_dim           r=+0.148  p=0.4024
+03:21:57        lz_ratio              r=+0.236  p=0.1725
+03:21:57        svd_entropy           r=+0.186  p=0.3174
+03:21:57        sheaf_h1              r=-0.358  p=0.0349 ← significant
+03:21:57        dinu_rho_dev          r=+0.234  p=0.1766
+03:21:57        kmer_H_norm           r=-0.278  p=0.1059
+03:21:57        gc_skew_std           r=-0.390  p=0.0400 ← significant
+03:21:57        fft_codon             r=+0.659  p=0.0000 ← significant
+03:21:57  ─────────────── Generating visualisations → results/ ───────────────
+03:21:58     Saved fft_analysis.png
+03:21:59     Saved fractal_dimensions.png
+03:22:00     Saved jaccard_heatmap.png
+03:22:00     Saved lz_complexity.png
+03:22:00     Saved wavelet_scales.png
+03:22:01     Saved mfdfa_spectrum.png
+03:22:01     Saved svd_entropy.png
+03:22:02     Saved dinucleotide_rho.png
+03:22:02     Saved kmer_entropy.png
+03:22:03     Saved sheaf_h1.png
+03:22:04     Saved gc_skew.png
+03:22:05     Saved fisher_rao_centroid.png
+03:22:05     Saved feature_correlations.png
+03:22:05     Saved radar_by_type.png
+03:22:05  ───────────── Building Weighted de Bruijn Graph (k=4) ──────────────
+03:32:04     Nodes: 64 | Edges: 256
+03:32:04  ───────────────────── de Bruijn Deep Analysis ──────────────────────
+03:32:04     Nodes=64  Edges=256  Density=0.0635  SCCs=1
+03:32:04     Top PageRank 3-mers:
+03:32:04        TTT  PR=0.0314
+03:32:04        AAA  PR=0.0312
+03:32:04        ATT  PR=0.0218
+03:32:04        AAT  PR=0.0209
+03:32:04        TCT  PR=0.0202
+03:32:04     Found 6 communities
+03:32:04     Community 1 (15 nodes) logo:
+03:32:04        T(0.42)  A(0.25)  C(0.17)  G(0.17)
+03:32:04        T(0.75)  A(0.25)  C(0.00)  G(0.00)
+03:32:04        T(0.58)  A(0.17)  C(0.17)  G(0.08)
+03:32:04     Community 2 (15 nodes) logo:
+03:32:04        G(0.42)  A(0.25)  C(0.17)  T(0.17)
+03:32:04        G(0.75)  A(0.25)  C(0.00)  T(0.00)
+03:32:04        G(0.58)  C(0.17)  T(0.17)  A(0.08)
+03:32:04     Community 3 (12 nodes) logo:
+03:32:04        C(0.33)  G(0.33)  T(0.33)  A(0.00)
+03:32:04        C(0.33)  G(0.33)  T(0.33)  A(0.00)
+03:32:04        C(0.33)  G(0.33)  T(0.33)  A(0.00)
+03:32:04     Community 4 (8 nodes) logo:
+03:32:04        A(0.37)  C(0.37)  G(0.12)  T(0.12)
+03:32:04        A(0.37)  C(0.37)  G(0.12)  T(0.12)
+03:32:04        A(0.37)  C(0.37)  G(0.12)  T(0.12)
+03:32:04     Community 5 (7 nodes) logo:
+03:32:04        C(0.57)  A(0.14)  G(0.14)  T(0.14)
+03:32:04        C(1.00)  A(0.00)  G(0.00)  T(0.00)
+03:32:04        C(0.57)  A(0.14)  G(0.14)  T(0.14)
+03:32:04     Community 6 (7 nodes) logo:
+03:32:04        A(0.57)  C(0.14)  G(0.14)  T(0.14)
+03:32:04        A(1.00)  C(0.00)  G(0.00)  T(0.00)
+03:32:04        A(0.57)  C(0.14)  G(0.14)  T(0.14)
+03:32:05     Saved de_bruijn_communities.html
+03:32:06     Saved de_bruijn_degree_distribution.png
+03:32:06     Clustering Z-score vs Erdős-Rényi: 4.57
+03:32:06     Saved de_bruijn.html
+03:32:06  ────────────────────────── Saving Results ──────────────────────────
+03:32:06     Saved results\summary_results.csv
+03:32:06     Saved results\summary_results.json
+03:32:06  ────────────────────────── Summary Table ───────────────────────────
+03:32:06  Name                   Type        Len(kbp)    GC%  FractalD     LZ  SVD_ratio   Dinu_ρ  Kmer_H
+03:32:06  ───────────────────────────────────────────────────────────────────────────────────────────────
+03:32:06  phiX174                phage            5.4  44.76    1.0984 0.3153    0.96401   0.1347  0.9729
+03:32:06  pUC19                  plasmid          2.7  50.63    1.1112 0.3366        nan   0.0886  0.9862
+03:32:06  SARS-CoV-2             virus           29.9  37.97    1.2083 0.2990    0.96287   0.1709  0.9636
+03:32:06  M13                    phage            6.4  40.74    1.1508 0.3115    0.96096   0.1237  0.9657
+03:32:06  pBR322                 plasmid          4.4  53.75    1.5294 0.3245        nan   0.0955  0.9870
+03:32:06  SV40                   virus            5.2  40.80    1.4188 0.3067    0.95927   0.2485  0.9536
+03:32:06  Lambda                 phage           48.5  49.86    1.1280 0.2963    0.96168   0.1191  0.9871
+03:32:06  PSTVd                  viroid           0.4  58.22       nan 0.4095        nan   0.3260  0.8928
+03:32:06  Human_mtDNA            organelle       16.6  44.36    1.2550 0.3029    0.95514   0.1222  0.9571
+03:32:06  T7_phage               phage           39.9  48.40    1.2257 0.2974    0.95951   0.0968  0.9866
+03:32:06  MS2_phage              phage            3.6  52.12    1.5850 0.3351        nan   0.0590  0.9917
+03:32:06  E_coli_K12             bacterium     4641.7  50.79    1.2008 0.2801    0.96182   0.1486  0.9869
+03:32:06  B_subtilis             bacterium     4215.6  43.51    1.0755 0.2790    0.96133   0.1368  0.9804
+03:32:06  P_aeruginosa_PA O1     bacterium     6264.4  66.56    1.0611 0.2688    0.95985   0.1286  0.9432
+03:32:06  M_tuberculosis_H37Rv   bacterium     4411.5  65.61    1.0630 0.2730    0.96095   0.1378  0.9519
+03:32:06  V_cholerae_chr1        bacterium     2961.1  47.69    1.1865 0.2805    0.96217   0.1333  0.9889
+03:32:06  S_pneumoniae_R6        bacterium     2038.6  39.72    1.0793 0.2784    0.96239   0.1235  0.9756
+03:32:06  H_influenzae_RdKW20    bacterium     1830.1  38.15    1.0874 0.2780    0.96181   0.1551  0.9674
+03:32:06  M_jannaschii           archaeon      1751.4  49.54    1.2345 0.2776    0.96132   0.1727  0.9820
+03:32:06  T_thermophilus         bacterium     1849.7  69.52    1.0826 0.2582    0.95954   0.2406  0.9133
+03:32:06  S_cerevisiae_chrIV     eukaryote     1531.9  37.91    1.0772 0.2790    0.96249   0.0922  0.9733
+03:32:06  Salmonella_enterica    unknown       4857.4  52.22    1.1889 0.2800    0.96212   0.1525  0.9851
+03:32:06  Streptomyces_coelicolor unknown       3782.9  50.65    1.2000 0.2802    0.96153   0.1445  0.9840
+03:32:06  Pseudomonas_putida     unknown       5960.0  61.86    1.0791 0.2743    0.96130   0.1385  0.9646
+03:32:06  Bacillus_cereus        unknown       5224.3  35.58    1.0467 0.2759    0.96204   0.0743  0.9640
+03:32:06  Rhodobacter_sphaeroides unknown       4646.3  50.80    1.2008 0.2801    0.96182   0.1486  0.9869
+03:32:06  Sulfolobus_solfataricus unknown       2992.2  35.79    1.0952 0.2758    0.96265   0.1233  0.9642
+03:32:06  Arabidopsis_chr1       unknown      30427.7  35.68    1.0880 0.2688    0.96225   0.1071  0.9642
+03:32:06  Drosophila_chr2        unknown       1348.1  34.81    1.0740 0.2617    0.96144   0.0972  0.9632
+03:32:06  C_elegans_chrI         unknown      15072.4  35.75    1.0956 0.2677    0.96015   0.1498  0.9539
+03:32:06  S_cerevisiae_full      unknown        666.8  38.07    1.0669 0.2822    0.96238   0.0927  0.9739
+03:32:06  Human_chr1             unknown     248956.4  38.63    1.1932 0.2459    0.91298   0.1874  0.9697
+03:32:06  Human_chr2             unknown     242193.5  39.96    1.1083 0.2669    0.91291   0.1847  0.9668
+03:32:06  Human_chr19            unknown      58617.6  47.79    1.0444 0.2447    0.67258   0.1960  0.9755
+03:32:06  Human_chr21            unknown      46710.0  35.14    0.9952 0.2216    0.00000   0.1780  0.9694
+03:32:06  ───────────────────────────── Complete ─────────────────────────────
+03:32:06     35 genomes  •  703.1 MB  •  7918.7s elapsed
+03:32:06     All outputs in ./results/
